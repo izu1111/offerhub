@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offer Affiliate Hub</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0a0a;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .banner-container {
+      position: relative;
+      width: 320px;
+      height: 250px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+    }
+
+    .banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.6s ease-in-out;
+      cursor: pointer;
+    }
+
+    .banner.active {
+      opacity: 1;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <!-- Rotating Banner Section -->
+  <div class="banner-container">
+    <a href="https://ouo.io/LmmmZ1" class="banner active" target="_blank">
+      <img src="https://via.placeholder.com/320x250/ff4444/ffffff?text=🔥+Hot+Offer" alt="Offer 1" width="100%" height="100%">
+    </a>
+    <a href="https://ouo.io/H4ZJlP" class="banner" target="_blank">
+      <img src="https://via.placeholder.com/320x250/44ff44/000000?text=💰+Big+Deal" alt="Offer 2" width="100%" height="100%">
+    </a>
+    <a href="https://ouo.io/MpgjIn" class="banner" target="_blank">
+      <img src="https://via.placeholder.com/320x250/4444ff/ffffff?text=🎁+Free+Reward" alt="Offer 3" width="100%" height="100%">
+    </a>
+    <a href="https://ouo.io/CslAUAA" class="banner" target="_blank">
+      <img src="https://via.placeholder.com/320x250/f4b400/000000?text=⭐+Bonus+Offer" alt="Offer 4" width="100%" height="100%">
+    </a>
+    <a href="https://ouo.io/rjdjAqz" class="banner" target="_blank">
+      <img src="https://via.placeholder.com/320x250/0af/fff?text=🚀+Instant+Reward" alt="Offer 5" width="100%" height="100%">
+    </a>
+  </div>
+
+  <footer>© 2025 OfferAffiliateHub</footer>
+
+  <!-- Banner Rotator Script -->
+  <script>
+    const banners = document.querySelectorAll('.banner');
+    let index = 0;
+
+    setInterval(() => {
+      banners[index].classList.remove('active');
+      index = (index + 1) % banners.length;
+      banners[index].classList.add('active');
+    }, 4000); // rotates every 4 seconds
+  </script>
+
+  <!-- Adsterra Popunder -->
+  <script type='text/javascript' src='//salvageapplet.com/ce/f1/b6/cef1b650e4c0db0e260aea57444b0fac.js'></script>
+
+  <!-- Adsterra Smartlink (invisible redirect prefetch) -->
+  <iframe src="https://salvageapplet.com/tvuwqyc5c?key=51de2ffae47b9f668b1182162da13d62" style="display:none;"></iframe>
+
+  <!-- Adsterra SocialBar -->
+  <script type='text/javascript' src='//salvageapplet.com/c3/97/43/c397432f8769426b89ff18f2ea7e8036.js'></script>
+</body>
+</html>
